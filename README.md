@@ -15,8 +15,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
+[image1]: ./networkvisualizationtensorboard.PNG "Visualization"
+[image2]: ./signvisualize.PNG "Signs"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
@@ -73,7 +73,7 @@ The difference between the original data set and the augmented data set is that 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following:
-
+![alt text][image1]
  
  
 As you can see, at first, there are three different convolutional paths, which are then concatenated in an inception module. Then, the data goes through three convolutional layers, then through three fully connected layers, which then is turned into the output logits with a fully connected layer with 43 outputs and a softmax activation applied.
