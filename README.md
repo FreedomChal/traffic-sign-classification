@@ -1,5 +1,6 @@
 # **Traffic Sign Classification** 
 
+This is a project to classify to classify traffic signs from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
 
 [//]: # (Image References)
 
@@ -57,7 +58,7 @@ My final model results were:
 * validation set accuracy of 96.4%
 * test set accuracy of 93.9%
 
-At first, I basically used the [Lenet Archetecture](https://github.com/udacity/CarND-LeNet-Lab), only with more layers. Over time, I found several fundemental errors in the code that made the model not train properly, and fixed them. Later, I added dropout, an inception module, and more fully connected and convolutional layers. I discovered that my model tends to do better with a larger batch size and fairly low learning rate, which may be due to it having an ability to train faster, and therefore learn more in a shorter period of time, and being stable due to the low learning rate.
+At first, I basically used the [Lenet Architecture](https://github.com/udacity/CarND-LeNet-Lab), only with more layers. Over time, I found several fundemental errors in the code that made the model not train properly, and fixed them. Later, I added dropout, an inception module, and more fully connected and convolutional layers. I discovered that my model tends to do better with a larger batch size and fairly low learning rate, which may be due to it having an ability to train faster, and therefore learn more in a shorter period of time, and being stable due to the low learning rate.
 
 ### Testing the Model on New Images
 
