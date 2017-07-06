@@ -6,6 +6,7 @@
 [image1]: ./networkvisualizationtensorboard.PNG "Visualization"
 [image2]: ./signvisualize.PNG "Signs"
 [image3]: ./softmaxprobabilities.PNG "softmax_probabilities"
+[image4]: ./signsinternet.PNG "internet_images"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
@@ -77,8 +78,7 @@ At first, I basically used the [Lenet Archetecture](https://github.com/udacity/C
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image4]
 
 I discovered that my model did extremely good on the last three images, but horribly on the first two. This suggests that my model is only good at classifing signs that are in the center of the image, as the first two images are not very well centered.
 
