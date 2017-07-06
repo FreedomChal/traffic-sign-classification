@@ -8,9 +8,6 @@
 [image3]: ./softmaxprobabilities.PNG "softmax_probabilities"
 [image4]: ./signsinternet.PNG "internet_images"
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
-
 Here is a link to my [project code](https://github.com/FreedomChal/traffic-sign-classification/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
@@ -41,16 +38,6 @@ To generate new training data, I run the data through a generator that rotates, 
 
 As a last step, I normalized the image data because otherwise the gradients would become extreme.
 
-Here is an example of some unaugmented images and some augmented images:
-
-unagumented:
-![alt text][image3]
-
-augmented:
-![alt text][image2]
-
-The difference between the original data set and the augmented data set is that the colors are blurred, and the image is warped. 
-
 #### Model architecture
 
 My final model consisted of the following:
@@ -80,11 +67,11 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image4]
 
-I discovered that my model did extremely good on the last three images, but horribly on the first two. This suggests that my model is only good at classifing signs that are in the center of the image, as the first two images are not very well centered.
+I discovered that my model did extremely good on the last three images, but horribly on the first two. This suggests that my model is only good at classifying signs that are in the center of the image, as the first two images are not very well centered.
 
 #### Predictions and certainty of my model
 
-For the last three images, the model is almost completely right; the highest probability of an incorrect answer being predicted is ~0.00000000001437%. Yet, with the first two, the prediction is completely wrong. The correct prediction is not in the top five probabilities for either of them, In fact, the model is fairly certain on a single wrong answer being correct, which suggests, as said before that the model is only good at classigfing well-centered images.
+For the last three images, the model is almost completely right; the highest probability of an incorrect answer being predicted is ~0.00000000001437%. Yet, with the first two, the prediction is completely wrong. The correct prediction is not in the top five probabilities for either of them, In fact, the model is fairly certain on a single wrong answer being correct, which suggests, as said before that the model is only good at classifying well-centered images.
 
 My Model's final accuracy on the images found on the internet was 60.0%
 
