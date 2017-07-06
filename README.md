@@ -86,4 +86,6 @@ I discovered that my model did extremely good on the last three images, but horr
 
 For the last three images, the model is almost completely right; the highest probability of an incorrect answer being predicted is ~0.00000000001437%. Yet, with the first two, the prediction is completely wrong. The correct prediction is not in the top five probabilities for either of them, In fact, the model is fairly certain on a single wrong answer being correct, which suggests, as said before that the model is only good at classigfing well-centered images.
 
+My Model's final accuracy on the images found on the internet was 60.0%
+
 ![alt text][image3]
